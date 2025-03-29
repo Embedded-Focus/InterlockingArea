@@ -1,0 +1,14 @@
+[project]
+name = "interlocking-area"
+version = "0.1.0"
+description = "Interlocking Area for Model Railways"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "platformio>=6.1.18",
+    "pyright>=1.1.398",
+    "ruff>=0.11.2",
+]
