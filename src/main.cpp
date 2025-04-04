@@ -257,14 +257,3 @@ void loop() {
     Serial.println("  unknown route.");
   }
 }
-
-#if PROVIDE_MAIN
-auto main() -> int {
-  setup();
-  for (;;) {
-    loop();
-    delay(5 * 1000);
-  }
-  return 0; // never reached
-}
-#endif
